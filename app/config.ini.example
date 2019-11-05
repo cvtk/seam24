@@ -1,0 +1,12 @@
+[globals]
+
+DEBUG=3
+AUTOLOAD=app/
+
+db = database.json
+bitrixApiUrl = https://XXXXXXXX.bitrix24.ru/rest/1/XXXXXXXXXXXXXXXX/
+
+[maps]
+/ae961b338759a2940310c4d/1/register = RegisterController
+/ae961b338759a2940310c4d/1/finish = FinishController
+/ae961b338759a2940310c4d/1/update = UpdateController
